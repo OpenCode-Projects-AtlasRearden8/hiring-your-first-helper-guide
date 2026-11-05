@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chapter 6: Onboarding Without Info-Flooding</title>
+<style>:root { --ink:#1c2333; --paper:#fdfbf7; --accent:#7a4ea3; --accent2:#3a6ea5; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--paper); color:var(--ink);
+  font:17px/1.65 Georgia, "Iowan Old Style", "Times New Roman", serif; }
+header.site { background:linear-gradient(120deg,#33244d,#2b3f5e); color:#fff; padding:2rem 1rem 1.4rem; }
+header.site .wrap { max-width:880px; margin:0 auto; }
+header.site h1 { font-size:1.5rem; margin:0 0 .25rem; }
+header.site p { margin:0; color:#cfd6e4; font-size:.95rem; }
+nav.toc { background:#2b3f5e; }
+nav.toc .wrap { max-width:880px; margin:0 auto; display:flex; flex-wrap:wrap; gap:.2rem .9rem; padding:.5rem 1rem; }
+nav.toc a { color:#dfe6f2; text-decoration:none; font-size:.8rem; font-family:"Segoe UI", Arial, sans-serif; }
+nav.toc a:hover { color:#ffcf70; text-decoration:underline; }
+nav.toc a.current { color:#ffcf70; }
+main { max-width:880px; margin:0 auto; padding:1.5rem 1rem 3rem; }
+h1 { font-size:1.9rem; line-height:1.25; margin:.5rem 0 1rem; color:#33244d; }
+h2 { font-size:1.25rem; margin:2rem 0 .5rem; color:#33244d; border-bottom:2px solid #e6ddf3; padding-bottom:.2rem; }
+h3 { font-size:1.05rem; margin:1.4rem 0 .4rem; color:#3a2f55; }
+p { margin:.6rem 0; }
+code { background:#eee9f5; padding:.1rem .35rem; border-radius:4px;
+  font:.9em "Cascadia Mono", Consolas, monospace; color:#4a2f6e; }
+pre { background:#2a2140; color:#e8e0f5; padding:1rem; border-radius:8px; overflow:auto; }
+pre code { background:transparent; color:inherit; padding:0; }
+blockquote { background:#f6f0fa; border-left:4px solid var(--accent); margin:1rem 0;
+  padding:.6rem 1rem; border-radius:0 8px 8px 0; color:#43365f;}
+blockquote p { margin:.3rem 0; }
+table { border-collapse:collapse; width:100%; margin:1rem 0; font-size:.92rem; }
+th, td { border:1px solid #ddd5e8; padding:.45rem .6rem; vertical-align:top; }
+th { background:#efe8f8; font-family:"Segoe UI", Arial, sans-serif; font-size:.85rem; }
+tr:nth-child(even) td { background:#faf7fd; }
+hr { border:0; border-top:1px solid #e0d8ee; margin:2rem 0; }
+a { color:var(--accent2); }
+li { margin:.25rem 0; }
+.pn { display:flex; justify-content:space-between; gap:1rem; margin-top:2.5rem;
+  border-top:1px solid #e6ddf3; padding-top:1rem;
+  font-family:"Segoe UI", Arial, sans-serif; font-size:.92rem; }
+footer.site { text-align:center; color:#8a8e99; font-size:.8rem; padding:1.2rem; }
+.notice { background:#fff7e6; border:1px solid #ecd9a8; padding:.7rem 1rem;
+  border-radius:8px; font-size:.9rem; color:#7a5b16; margin-top:2rem; }
+input[type=checkbox] { accent-color:var(--accent); }
+@media (prefers-color-scheme: dark) {
+  :root { --ink:#e8e6ef; --paper:#191623; --accent:#b79ede; --accent2:#8db8e8; }
+  code { background:#2e2840; color:#cdbcf0; }
+  blockquote { background:#241f33; color:#c9c0df; }
+  table { border-color:#3a3350; } th { background:#2a2440; }
+  tr:nth-child(even) td { background:#211d2f; }
+  pre { background:#241f33; }
+  .notice { background:#33291a; border-color:#5b4a22; color:#e5c77f; }
+  h1, h2, h3 { color:#cfc4e8; }
+}</style>
+</head>
+<body>
+<header class="site"><div class="wrap">
+<h1>Hiring Your First Helper Guide</h1><p>A plain-English small-business manual for hiring your first contractor or part-timer</p>
+</div></header>
+<nav class="toc"><div class="wrap"><a href="index.html">Home</a><a href="00-start-here.html">Start Here</a><a href="01-should-you-hire.html">1 · Should You Hire?</a><a href="02-writing-the-posting.html">2 · Writing the Posting</a><a href="03-fair-trial-projects.html">3 · Fair Trial Projects</a><a href="04-paying-people-plainly.html">4 · Paying People Plainly</a><a href="05-records-you-keep.html">5 · Records You Keep</a><a href="06-onboarding.html" class="current">6 · Onboarding</a><a href="07-offboarding.html">7 · Offboarding</a><a href="08-keeping-your-head-above-water.html">8 · Keeping Your Head</a><a href="interview-scorecard.html">Interview Scorecard</a><a href="first-week-onboarding-sheet.html">First-Week Onboarding Sheet</a><a href="glossary.html">Glossary</a></div></nav>
+<main><h1 id="chapter-6-onboarding-without-info-flooding">Chapter 6: Onboarding Without Info-Flooding</h1>
+<p><em>Education only, never legal or tax advice.</em></p>
+<h2 id="the-problem-with-dumping-the-manual">The problem with dumping the manual</h2>
+<p>You care about this work and you want your helper to succeed, so you ship them 40 pages of context, 12 logins, your brand-voice essay, and a Slack welcome on day one.</p>
+<p>They nod enthusiastically and absorb roughly 8%.</p>
+<p>That's not their failure. That's the failure mode of <strong>onboarding-by-flood</strong>: it flatters how much you know and it helps nobody. Real onboarding is a <em>staged drip</em> — exactly what they need, exactly when they need it.</p>
+<h2 id="the-three-stage-rhythm">The three-stage rhythm</h2>
+<h3 id="stage-1-day-one-the-minimum-to-not-feel-lost">Stage 1 — Day one: the minimum to not feel lost</h3>
+<p>Send exactly four things:</p>
+<ol><li><strong>Where the work lives</strong> (one shared folder link; Chapter 5's one-liner).</li><li><strong>The one thing to do first</strong> — <em>one</em>, small, low-stakes, achievable in under an hour (e.g., "clean the transcript for episode 12 using the prototype in the folder").</li><li><strong>How to ask you a question</strong> (e.g., "Reply here, or Slack me; I answer within one business day; don't sit stuck longer than 20 minutes — ask").</li><li><strong>Your availability</strong> honestly: "I'm most responsive in the mornings; I do not expect replies from you on weekends."</li></ol>
+<p>Deliberately <em>not</em> sent day one: brand guides, tool-by-tool training, the "future project ideas" list, context for what <em>you</em> do the rest of the week.</p>
+<h3 id="stage-2-week-one-training-only-where-theyll-stumble">Stage 2 — Week one: training <em>only where they'll stumble</em></h3>
+<p>Run a <strong>short</strong> 30-minute working video call early in week one. Do not teach everything — teach only:</p>
+<ul><li>the thing they'll touch daily,</li><li>the one or two things genuinely confusing without a demo,</li><li>how to mark their own uncertainty instead of guessing ("if you're not sure, mark it <code>[?]</code> and move on" — this works stupendously well).</li></ul>
+<p>Then give <strong>the first-week onboarding sheet</strong> (in the extras at the back of this guide) a once-over together: it's short. It has Monday through Friday, one primary task, one bit of context, and one feedback moment per day. They can print it or copy it.</p>
+<h3 id="stage-3-weeks-24-grow-the-perimeter-slowly">Stage 3 — Weeks 2–4: grow the perimeter slowly</h3>
+<p>Add things <em>as they become relevant</em>, a kitchen at a time:</p>
+<ul><li>week 2: the next recurring task;</li><li>week 3: a bit of autonomy ("you don't need to ask me before renaming files; just follow the naming system");</li><li>week 4: a retro question ("What's one thing you wished you'd understood in week one?") — which also fixes your onboarding for next time.</li></ul>
+<h2 id="day-one-message-copy-and-modify-template">Day-one message (copy-and-modify template)</h2>
+<pre><code>Subject: Welcome aboard — day one plan
+
+Hi Beth,
+
+Thrilled to have you. First: the work lives in this shared folder — [link].
+That's home base; everything we make together, both of us, lives there.
+
+Your first task (should take under an hour): clean the transcript for
+episode 12. The rough version and a "how-to" note are inside the episode-12
+folder. Don't aim for pretty; aim for *doneness* — you'll get the hang of my
+quirks by doing, not by reading.
+
+One rule: if you're stuck more than 20 minutes, message me. I answer within
+one business day, usually faster in the mornings. It's genuinely no bother.
+
+This week, small and steady: I'll send the next piece of work once I've seen
+how you like this one. No homework beyond it. Welcome, for real.
+— Dylan</code></pre>
+<p>That email weighs almost nothing but it does four jobs: home base, first task, the ask-me rule, no-pressure-close. Everything else arrives later.</p>
+<h2 id="anti-flood-principles-summarized">Anti-flood principles, summarized</h2>
+<ol><li><strong>Need-to-now over need-to-know.</strong> Send information at the moment it becomes useful.</li><li><strong>One first task, small and real.</strong> A win in hour one changes everything.</li><li><strong>Teach the check-in motion, not the encyclopedia.</strong> The rule "ask after 20 minutes stuck" matters more than any doc.</li><li><strong>Ritual beats documentation.</strong> A short weekly reply-to ("Monday: reply here with what you're doing this week") does more for coordination than the best wiki.</li><li><strong>Fix the doc, not the conversation.</strong> When they ask a question, answer it — <em>and</em> (this is the magic) update the place where they'd have looked, so next person won't need to ask. Your help slowly writes itself.</li></ol>
+<h2 id="what-friendly-accountability-looks-like">What friendly accountability looks like</h2>
+<p>For a part-timer, the ideal check-in rhythm is one 10-minute weekly exchange: they write what they did, what was tricky, and what's next; you reply with "great / here's the one thing to adjust." Pre-talked, uniform, tiny — and if a week goes by without them sending it, that's a chat for that day, not a silent slide into "have they forgotten me?" Prickly silence is where small team morale quietly goes to die.</p><div class="notice"><strong>Education only, never legal or tax advice.</strong> This guide explains concepts in plain language so you can have smarter conversations with professionals; it does not replace them.</div><div><div class="pn"><div><a href="05-records-you-keep.html">&larr; 5 · Records You Keep</a></div><div><a href="07-offboarding.html">7 · Offboarding &rarr;</a></div></div></div></main>
+<footer class="site">By Asdale Dynamics, LLC · Education only, never legal or tax advice. Built 2026-11-05.</footer>
+</body>
+</html>
